@@ -42,7 +42,7 @@ def info():
     return {
         'hostname': os.environ.get('HOSTNAME', 'unknown'),
         'environment': os.environ.get('ENVIRONMENT', 'not_set'),
-	    'description':'Hola mundo soy lucia',
+	    'description':'Hola mundo, última prueba con cloudbuild.yaml',
         'app_name': os.environ.get('APP_NAME', 'not_set'),
         'port': os.environ.get('PORT', 'not-set')
     }
