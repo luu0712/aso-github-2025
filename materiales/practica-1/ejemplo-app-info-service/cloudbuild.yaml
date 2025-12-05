@@ -13,8 +13,10 @@ steps:
       - '-t'
       - '${_REGION}-docker.pkg.dev/${PROJECT_ID}/${_REPO_NAME}/app-info-service:latest'
       - '.'
-    dir: '.'
-
+    dir: 'materiales/practica-1/ejemplo-app-info-service/'
+    #dir: 'materiales/practica-1/ejemplo-app-info-service/'
+    
+  #comentario 4
   # Paso 2: Publicar la imagen en Artifact Registry
   - name: 'gcr.io/cloud-builders/docker'
     args:
